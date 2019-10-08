@@ -20,6 +20,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   flutter_svg: ^0.14.1
+  url_launcher: ^5.1.4
 
 dev_dependencies:
   flutter_test:
@@ -43,25 +44,30 @@ flutter:
 
 
   fonts:
-    - family: AzoSans
+#    - family: AzoSans
+#      fonts:
+#        - asset: fonts/AzoSans-Black.otf
+#          weight: 700
+#        - asset: fonts/AzoSans-BlackItalic.otf
+#        - asset: fonts/AzoSans-BoldItalic.otf
+#          weight: 600
+#        - asset: fonts/AzoSans-Italic.otf
+#        - asset: fonts/AzoSans-Light.otf
+#          weight: 200
+#        - asset: fonts/AzoSans-LightItalic.otf
+#        - asset: fonts/AzoSans-Medium.otf
+#          weight: 500
+#        - asset: fonts/AzoSans-MediumItalic.otf
+#        - asset: fonts/AzoSans-Regular.otf
+#          weight: 300
+#        - asset: fonts/AzoSans-Thin.otf
+#          weight: 100
+#        - asset: fonts/AzoSans-ThinItalic.otf
+
+    - family: Mansalva
       fonts:
-        - asset: fonts/AzoSans-Black.otf
-          weight: 700
-        - asset: fonts/AzoSans-BlackItalic.otf
-        - asset: fonts/AzoSans-BoldItalic.otf
-          weight: 600
-        - asset: fonts/AzoSans-Italic.otf
-        - asset: fonts/AzoSans-Light.otf
-          weight: 200
-        - asset: fonts/AzoSans-LightItalic.otf
-        - asset: fonts/AzoSans-Medium.otf
-          weight: 500
-        - asset: fonts/AzoSans-MediumItalic.otf
-        - asset: fonts/AzoSans-Regular.otf
+        - asset: fonts/Mansalva-Regular.ttf
           weight: 300
-        - asset: fonts/AzoSans-Thin.otf
-          weight: 100
-        - asset: fonts/AzoSans-ThinItalic.otf
 
   #   - family: Trajan Pro
   #     fonts:
