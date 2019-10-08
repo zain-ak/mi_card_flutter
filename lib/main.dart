@@ -47,9 +47,14 @@ class MiCard extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                CircleAvatar (
-                  radius: 50.0,
-                  backgroundImage: AssetImage('images/professional_zain.jpeg')
+                InkWell(
+                  onDoubleTap: () {
+                    /* TODO: change image on double tap  */
+                  },
+                  child: CircleAvatar (
+                    radius: 50.0,
+                    backgroundImage: AssetImage('images/professional_zain.jpeg')
+                  ),
                 ),
                 SizedBox (height: 15.0),
                 Text (
@@ -68,12 +73,12 @@ class MiCard extends StatelessWidget {
                   children: <Widget>[
                     SvgPicture.asset (
                       'svg/flutter.svg',
-                      height: 30.0,
+                      height: 30.0
                     ),
                     SizedBox (width: 10.0),
                     SvgPicture.asset (
                       'svg/android.svg',
-                      height: 30.0,
+                      height: 30.0
                     ),
                     SizedBox (width: 10.0),
                     SvgPicture.asset (
