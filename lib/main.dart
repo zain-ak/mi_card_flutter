@@ -101,7 +101,7 @@ class MiCard extends StatelessWidget {
                         color: Colors.purple[500],
                       ),
                       title: Text (
-                            'github.com/zain-ak',
+                            '/zain-ak',
                             style: TextStyle(
                               color: Colors.purple[900],
                               fontSize: 20.0,
