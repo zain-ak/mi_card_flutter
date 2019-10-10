@@ -14,7 +14,9 @@ This project was mostly about learning to work with layout widgets in Flutter, t
 
 <img src="demo.gif" height="500" />
 
-*Note: The buttons are a bit different because the project first taught making a custom layout for the phone and email containers. And then it did Cards. I had already implemented the InkWell widget around the initial containers and I didn't want to lose the code for that so both are shown in the application.*
+*Note: The buttons are a bit different because the project first taught making a custom layout for the phone and email containers. And then it did Cards.*
+
+*I had already implemented the InkWell widget around the initial containers, plus done some customization to their theming and I didn't want to lose the code for that so both are shown in the application.*
 
 ## Our Goal
 
